@@ -1,0 +1,31 @@
+.game-bg-container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.score-time-holder{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.text{
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.game-board{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 80vh;
+    width:70vw;
+    border: 5px solid rgb(62, 3, 104);
+    margin: 20px auto;
+    border-radius: 10px;
+    background-color: #f3f3f3;
+    padding: 20px;
+}

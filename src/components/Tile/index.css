@@ -1,0 +1,16 @@
+.tile-holder{
+width: 100px;
+  height: 100px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 2px solid #ccc;
+  transition: transform 0.3s;
+}
+.image{
+    height: 100%;
+    width: 100%;
+}
